@@ -1,0 +1,24 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1f3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a5c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a962;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#b87333;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad1)"/>
+  <circle cx="300" cy="200" r="150" fill="url(#grad2)" opacity="0.4" filter="blur(40px)"/>
+  <circle cx="1600" cy="800" r="200" fill="url(#grad2)" opacity="0.3" filter="blur(50px)"/>
+  <g opacity="0.1">
+    <line x1="0" y1="100" x2="1920" y2="100" stroke="#c9a962" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1920" y2="300" stroke="#c9a962" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1920" y2="500" stroke="#c9a962" stroke-width="1"/>
+    <line x1="0" y1="700" x2="1920" y2="700" stroke="#c9a962" stroke-width="1"/>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#c9a962" stroke-width="1"/>
+  </g>
+  <text x="960" y="540" font-family="serif" font-size="72" fill="#c9a962" text-anchor="middle" opacity="0.3">AUREUS</text>
+  <text x="960" y="600" font-family="sans-serif" font-size="24" fill="#8b9bb4" text-anchor="middle" opacity="0.5">Building Tomorrow's Success</text>
+</svg>

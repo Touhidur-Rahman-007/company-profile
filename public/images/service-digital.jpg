@@ -1,0 +1,22 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="serviceBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2d4a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#serviceBg2)"/>
+  <g opacity="0.3">
+    <rect x="150" y="100" width="300" height="200" rx="10" fill="#1a3a5c"/>
+    <rect x="170" y="120" width="260" height="140" rx="5" fill="#c9a962"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="250" cy="190" r="15" fill="#e8e6e3"/>
+    <circle cx="300" cy="190" r="15" fill="#e8e6e3"/>
+    <circle cx="350" cy="190" r="15" fill="#e8e6e3"/>
+    <rect x="230" y="220" width="140" height="40" rx="5" fill="#b87333"/>
+  </g>
+  <line x1="200" y1="330" x2="300" y2="380" stroke="#c9a962" stroke-width="8" opacity="0.5"/>
+  <line x1="300" y1="380" x2="400" y2="330" stroke="#c9a962" stroke-width="8" opacity="0.5"/>
+  <text x="300" y="370" font-family="sans-serif" font-size="24" fill="#e8e6e3" text-anchor="middle">Digital Solutions</text>
+</svg>

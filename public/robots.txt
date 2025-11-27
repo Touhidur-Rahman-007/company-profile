@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://aureus-corporation.com/sitemap.xml
+
+# Block access to admin areas
+Disallow: /api/
+Disallow: /_next/
+
+# Allow crawling of images
+Allow: /images/
+
+# Crawl delay
+Crawl-delay: 0

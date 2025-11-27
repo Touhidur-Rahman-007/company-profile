@@ -1,0 +1,19 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="serviceBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a5c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1f3c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#serviceBg1)"/>
+  <g opacity="0.3">
+    <polygon points="100,100 200,50 300,100 200,150" fill="#c9a962"/>
+    <polygon points="150,200 250,150 350,200 250,250" fill="#c9a962"/>
+    <polygon points="200,300 300,250 400,300 300,350" fill="#c9a962"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="300" cy="200" r="80" stroke="#c9a962" stroke-width="3" fill="none"/>
+    <path d="M 250 200 L 300 150 L 350 200 L 300 250 Z" fill="#b87333"/>
+  </g>
+  <text x="300" y="370" font-family="sans-serif" font-size="24" fill="#e8e6e3" text-anchor="middle">Strategic Consulting</text>
+</svg>
