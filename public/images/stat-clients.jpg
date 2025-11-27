@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1f3c;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#b87333;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#statBg2)"/>
+  <g opacity="0.4">
+    <path d="M 100 150 L 120 120 L 140 150 L 120 180 Z" fill="#c9a962"/>
+    <path d="M 150 150 L 170 120 L 190 150 L 170 180 Z" fill="#b87333"/>
+    <path d="M 200 150 L 220 120 L 240 150 L 220 180 Z" fill="#c9a962"/>
+    <path d="M 250 150 L 270 120 L 290 150 L 270 180 Z" fill="#b87333"/>
+  </g>
+  <text x="200" y="240" font-family="serif" font-size="60" font-weight="bold" fill="#c9a962" text-anchor="middle" opacity="0.3">500+</text>
+</svg>

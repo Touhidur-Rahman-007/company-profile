@@ -486,6 +486,23 @@ export default function CompanyProfile() {
           transition: all 0.4s ease;
           opacity: 0;
           animation: scaleIn 0.6s ease forwards;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .stat-bg-image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 0;
+          opacity: 0.15;
+        }
+
+        .stat-content {
+          position: relative;
+          z-index: 1;
         }
 
         .stat-card:nth-child(1) {
@@ -803,6 +820,18 @@ export default function CompanyProfile() {
           z-index: 10;
         }
 
+        .contact-bg-wrapper {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          max-width: 600px;
+          height: 100%;
+          z-index: -1;
+          opacity: 0.1;
+        }
+
         .contact-container {
           max-width: 800px;
           margin: 0 auto;
@@ -1048,20 +1077,60 @@ export default function CompanyProfile() {
           <section className="stats" aria-label="Company Statistics">
             <div className="stats-grid">
               <article className="stat-card">
-                <div className="stat-number">15+</div>
-                <div className="stat-label">Years Experience</div>
+                <div className="stat-bg-image">
+                  <Image
+                    src="/images/stat-experience.jpg"
+                    alt=""
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <div className="stat-content">
+                  <div className="stat-number">15+</div>
+                  <div className="stat-label">Years Experience</div>
+                </div>
               </article>
               <article className="stat-card">
-                <div className="stat-number">500+</div>
-                <div className="stat-label">Clients Served</div>
+                <div className="stat-bg-image">
+                  <Image
+                    src="/images/stat-clients.jpg"
+                    alt=""
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <div className="stat-content">
+                  <div className="stat-number">500+</div>
+                  <div className="stat-label">Clients Served</div>
+                </div>
               </article>
               <article className="stat-card">
-                <div className="stat-number">50+</div>
-                <div className="stat-label">Team Members</div>
+                <div className="stat-bg-image">
+                  <Image
+                    src="/images/stat-team.jpg"
+                    alt=""
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <div className="stat-content">
+                  <div className="stat-number">50+</div>
+                  <div className="stat-label">Team Members</div>
+                </div>
               </article>
               <article className="stat-card">
-                <div className="stat-number">98%</div>
-                <div className="stat-label">Client Satisfaction</div>
+                <div className="stat-bg-image">
+                  <Image
+                    src="/images/stat-satisfaction.jpg"
+                    alt=""
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <div className="stat-content">
+                  <div className="stat-number">98%</div>
+                  <div className="stat-label">Client Satisfaction</div>
+                </div>
               </article>
             </div>
           </section>
@@ -1211,6 +1280,14 @@ export default function CompanyProfile() {
             id="contact"
             aria-labelledby="contact-title"
           >
+            <div className="contact-bg-wrapper">
+              <Image
+                src="/images/contact-bg.jpg"
+                alt=""
+                fill
+                style={{ objectFit: 'contain' }}
+              />
+            </div>
             <div className="contact-container">
               <span className="section-label">Get In Touch</span>
               <h2 id="contact-title" className="section-title">
