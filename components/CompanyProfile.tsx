@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import * as ImageData from "@/lib/imageData";
 
 // Structured Data for SEO
 const structuredData = {
@@ -1045,12 +1046,10 @@ export default function CompanyProfile() {
         <main>
           <section className="hero" aria-labelledby="hero-title">
             <div className="hero-image-wrapper">
-              <Image
-                src="/images/hero-bg.jpg"
+              <img
+                src={ImageData.heroImage}
                 alt="Modern business environment"
-                fill
-                style={{ objectFit: 'cover' }}
-                priority
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
             </div>
             <div className="hero-content">
@@ -1078,11 +1077,10 @@ export default function CompanyProfile() {
             <div className="stats-grid">
               <article className="stat-card">
                 <div className="stat-bg-image">
-                  <Image
-                    src="/images/stat-experience.jpg"
+                  <img
+                    src={ImageData.statExperience}
                     alt=""
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="stat-content">
@@ -1092,11 +1090,10 @@ export default function CompanyProfile() {
               </article>
               <article className="stat-card">
                 <div className="stat-bg-image">
-                  <Image
-                    src="/images/stat-clients.jpg"
+                  <img
+                    src={ImageData.statClients}
                     alt=""
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="stat-content">
@@ -1106,11 +1103,10 @@ export default function CompanyProfile() {
               </article>
               <article className="stat-card">
                 <div className="stat-bg-image">
-                  <Image
-                    src="/images/stat-team.jpg"
+                  <img
+                    src={ImageData.statTeam}
                     alt=""
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="stat-content">
@@ -1120,11 +1116,10 @@ export default function CompanyProfile() {
               </article>
               <article className="stat-card">
                 <div className="stat-bg-image">
-                  <Image
-                    src="/images/stat-satisfaction.jpg"
+                  <img
+                    src={ImageData.statSatisfaction}
                     alt=""
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="stat-content">
@@ -1185,11 +1180,10 @@ export default function CompanyProfile() {
               </div>
               <div className="about-visual">
                 <div className="about-image-wrapper">
-                  <Image
-                    src="/images/about-team.jpg"
+                  <img
+                    src={ImageData.aboutImage}
                     alt="Our professional team working together"
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
                   />
                 </div>
               </div>
@@ -1210,11 +1204,10 @@ export default function CompanyProfile() {
             <div className="services-grid">
               <article className="service-card">
                 <div className="service-image-wrapper">
-                  <Image
-                    src="/images/service-consulting.jpg"
+                  <img
+                    src={ImageData.serviceConsulting}
                     alt="Strategic consulting services"
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                   />
                 </div>
                 <div className="service-icon">
@@ -1231,11 +1224,10 @@ export default function CompanyProfile() {
               </article>
               <article className="service-card">
                 <div className="service-image-wrapper">
-                  <Image
-                    src="/images/service-digital.jpg"
+                  <img
+                    src={ImageData.serviceDigital}
                     alt="Digital transformation solutions"
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                   />
                 </div>
                 <div className="service-icon">
@@ -1252,11 +1244,10 @@ export default function CompanyProfile() {
               </article>
               <article className="service-card">
                 <div className="service-image-wrapper">
-                  <Image
-                    src="/images/service-talent.jpg"
+                  <img
+                    src={ImageData.serviceTalent}
                     alt="Talent solutions and development"
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                   />
                 </div>
                 <div className="service-icon">
@@ -1281,11 +1272,10 @@ export default function CompanyProfile() {
             aria-labelledby="contact-title"
           >
             <div className="contact-bg-wrapper">
-              <Image
-                src="/images/contact-bg.jpg"
+              <img
+                src={ImageData.contactBg}
                 alt=""
-                fill
-                style={{ objectFit: 'contain' }}
+                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             </div>
             <div className="contact-container">

@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: 'Innovative business solutions and exceptional service since 2010.',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/og-image.svg',
         width: 1200,
         height: 630,
         alt: 'Aureus Corporation - Building Tomorrow\'s Success Today',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Aureus Corporation | Leading Business Solutions Provider',
     description: 'Innovative business solutions and exceptional service since 2010.',
-    images: ['/images/twitter-image.jpg'],
+    images: ['/images/twitter-image.svg'],
     creator: '@aureus_corp',
   },
   alternates: {
